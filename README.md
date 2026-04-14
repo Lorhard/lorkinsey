@@ -1,8 +1,10 @@
 # Claude Skills
 
-> Auto-generated from monorepo. Do not edit directly.
+Curated Claude Code skills — structured thinking tools for product decisions and beyond.
 
-## Available Plugins
+> Auto-generated from source. Do not edit directly.
+
+## Available Skills (1)
 
 ### `ycofficehour` (v1.0.0)
 
@@ -14,3 +16,11 @@ YC Office Hours: structured product thinking for new ideas, directions, and 'is 
 /plugin marketplace add Lorhard/claude-skills
 /plugin install <plugin-name>
 ```
+
+## Acknowledgments
+
+The `ycofficehour` skill is inspired by [Garry Tan](https://github.com/garrytan)'s [office-hours skill](https://github.com/garrytan/gstack/blob/main/office-hours/SKILL.md).
+
+## License
+
+MIT © Lorhard
