@@ -1,0 +1,25 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "Lorhard"
+  },
+  "plugins": [
+    {
+      "name": "ycofficehour",
+      "description": "YC Office Hours: structured product thinking for new ideas, directions, and 'is this worth building' questions. Research-first, not output-first.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Lorhard"
+      },
+      "keywords": [
+        "yc",
+        "product",
+        "validation",
+        "startup",
+        "office-hours"
+      ],
+      "license": "MIT",
+      "source": "./plugins/ycofficehour"
+    }
+  ]
+}
