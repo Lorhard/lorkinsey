@@ -5,6 +5,26 @@
   },
   "plugins": [
     {
+      "name": "snowball",
+      "description": "Warren Buffett's full decision operating system — investing, moats, valuation, governance, macro worldview, and life philosophy — as a thinking framework for any consequential decision.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Lorhard"
+      },
+      "keywords": [
+        "buffett",
+        "investing",
+        "moat",
+        "valuation",
+        "berkshire",
+        "compounding",
+        "decision-making",
+        "snowball"
+      ],
+      "license": "MIT",
+      "source": "./plugins/snowball"
+    },
+    {
       "name": "ycofficehour",
       "description": "YC Office Hours: structured product thinking for new ideas, directions, and 'is this worth building' questions. Research-first, not output-first.",
       "version": "1.0.0",

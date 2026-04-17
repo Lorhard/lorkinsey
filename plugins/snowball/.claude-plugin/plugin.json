@@ -1,0 +1,19 @@
+{
+  "name": "snowball",
+  "description": "Warren Buffett's full decision operating system — investing, moats, valuation, governance, macro worldview, and life philosophy — as a thinking framework for any consequential decision.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Lorhard"
+  },
+  "keywords": [
+    "buffett",
+    "investing",
+    "moat",
+    "valuation",
+    "berkshire",
+    "compounding",
+    "decision-making",
+    "snowball"
+  ],
+  "license": "MIT"
+}

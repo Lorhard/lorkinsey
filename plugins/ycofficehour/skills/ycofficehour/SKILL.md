@@ -1,6 +1,8 @@
 ---
 name: ycofficehour
-description: "YC Office Hours: structured product thinking for new ideas, directions, and 'is this worth building' questions. Research-first, not output-first."
+description: >-
+  YC Office Hours: structured product thinking for new ideas, directions, and 'is this worth building' questions.
+  Research-first, not output-first.
 disable-model-invocation: false
 argument-hint: "[idea or direction to explore]"
 ---
