@@ -10,7 +10,7 @@ Lorkinsey packages the structured thinking frameworks we use day-to-day at Lorha
 
 ### `snowball` (v1.0.0)
 
-Warren Buffett's full decision operating system — investing, moats, valuation, governance, macro worldview, and life philosophy — as a thinking framework for any consequential decision.
+Warren Buffett's decision operating system for consequential choices — investing, moats, valuation, governance, macro, life philosophy. Opinionated single-framework by design; pair with others for early-stage tech bets.
 
 ### `ycofficehour` (v1.0.0)
 
@@ -91,6 +91,16 @@ Most skills accept a free-form argument (a topic, decision, or question to stres
 ```
 
 See each skill's `SKILL.md` for its full scope, trigger conditions, and argument hint.
+
+## Design Philosophy
+
+Lorkinsey skills are **opinionated by design**. Each one encodes a single coherent thinking framework — not a neutral survey of every school of thought on the topic. That focus is the point: a skill that tries to be balanced about everything gives you no decision signal.
+
+What this means in practice:
+
+- **Strong defaults, honest limits.** Each `SKILL.md` declares where its framework applies *and* where it does not. `snowball` is Warren Buffett's lens; it explicitly defers to other frameworks (Perez, Christensen, scaling-law / adoption-curve analyses) for early-stage technology S-curve selection in vertical AI, blockchain, and frontier models.
+- **Pair, don't replace.** For consequential decisions that straddle multiple domains, run more than one skill and compare.
+- **Triggers are scoped.** Skills decline to activate outside their scope rather than stretching a framework past its useful range.
 
 ## What's Next
 

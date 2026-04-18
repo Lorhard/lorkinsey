@@ -5,6 +5,7 @@ description: >-
   Trigger on: "what would Buffett do", stock / business / VC deal / M&A evaluation, economic moats, intrinsic value, margin of safety, Mr. Market, circle of competence, Berkshire Hathaway, long-term compounding, corporate governance, "never bet against America", lifelong compounding of money / skill / reputation / relationships.
   Trigger broadly — users often describe the need without naming Buffett (e.g., "is this a good business?", "should I hold or sell?", "how do I evaluate a CEO?", "is the market overvalued?").
   Do NOT use for day-trading, technical analysis, crypto speculation, or confident macro forecasting.
+  Opinionated single-framework by design — not a neutral survey. For early-stage tech S-curve selection (vertical AI, blockchain, frontier models), pair with complementary frameworks (Perez, Christensen, scaling-law / adoption-curve analyses); do not auto-trigger on pure technology-selection questions.
 disable-model-invocation: false
 argument-hint: "[decision or question to stress-test]"
 ---
