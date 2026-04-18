@@ -8,7 +8,7 @@ Lorkinsey packages the structured thinking frameworks we use day-to-day at Lorha
 
 ## Available Skills (3)
 
-### `lorkindoc` (v2026.04.18)
+### `lorkindoc` (v2026.04.18.2)
 
 Lorhard's in-house design system for formal, long-form HTML documents — contracts, consulting reports, research, sector notes, equity research, and any deliverable that must print or export to PDF cleanly. Opinionated single-template across three scenarios: contracts, named-client reports, general reports.
 
