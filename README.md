@@ -8,11 +8,11 @@ Lorkinsey packages the structured thinking frameworks we use day-to-day at Lorha
 
 ## Available Skills (2)
 
-### `snowball` (v1.0.0)
+### `snowball` (v2026.04.18)
 
 Warren Buffett's decision operating system for consequential choices — investing, moats, valuation, governance, macro, life philosophy. Opinionated single-framework by design; pair with others for early-stage tech bets.
 
-### `ycofficehour` (v1.0.0)
+### `ycofficehour` (v2026.04.18)
 
 YC Office Hours: structured product thinking for new ideas, directions, and 'is this worth building' questions. Research-first, not output-first.
 

@@ -7,7 +7,7 @@
     {
       "name": "snowball",
       "description": "Warren Buffett's decision operating system for consequential choices — investing, moats, valuation, governance, macro, life philosophy. Opinionated single-framework by design; pair with others for early-stage tech bets.",
-      "version": "1.0.0",
+      "version": "2026.04.18",
       "author": {
         "name": "Lorhard"
       },
@@ -27,7 +27,7 @@
     {
       "name": "ycofficehour",
       "description": "YC Office Hours: structured product thinking for new ideas, directions, and 'is this worth building' questions. Research-first, not output-first.",
-      "version": "1.0.0",
+      "version": "2026.04.18",
       "author": {
         "name": "Lorhard"
       },
