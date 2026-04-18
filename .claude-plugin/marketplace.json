@@ -5,6 +5,29 @@
   },
   "plugins": [
     {
+      "name": "lorkindoc",
+      "description": "Lorhard's in-house design system for formal, long-form HTML documents — contracts, consulting reports, research, sector notes, equity research, and any deliverable that must print or export to PDF cleanly. Opinionated single-template across three scenarios: contracts, named-client reports, general reports.",
+      "version": "2026.04.18",
+      "author": {
+        "name": "Lorhard"
+      },
+      "keywords": [
+        "document",
+        "design-system",
+        "contract",
+        "msa",
+        "sow",
+        "report",
+        "research",
+        "html",
+        "pdf",
+        "print",
+        "lorhard"
+      ],
+      "license": "MIT",
+      "source": "./plugins/lorkindoc"
+    },
+    {
       "name": "snowball",
       "description": "Warren Buffett's decision operating system for consequential choices — investing, moats, valuation, governance, macro, life philosophy. Opinionated single-framework by design; pair with others for early-stage tech bets.",
       "version": "2026.04.18",
@@ -27,7 +50,7 @@
     {
       "name": "ycofficehour",
       "description": "YC Office Hours: structured product thinking for new ideas, directions, and 'is this worth building' questions. Research-first, not output-first.",
-      "version": "2026.04.18",
+      "version": "2026.04.17",
       "author": {
         "name": "Lorhard"
       },
