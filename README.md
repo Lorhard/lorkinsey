@@ -18,7 +18,7 @@ YC Office Hours: structured product thinking for new ideas, directions, and 'is 
 
 ## Install
 
-Pick whichever method matches your setup. All three give you the same skills.
+Pick whichever method matches your setup — all four give you the same skills.
 
 ### A. Claude Code — marketplace (recommended)
 
@@ -47,6 +47,16 @@ Or install a single skill into the current project (team-shareable when committe
 # replace <skill-name> with e.g. snowball, ycofficehour
 git clone --depth 1 https://github.com/Lorhard/lorkinsey.git /tmp/lorkinsey && cp -r /tmp/lorkinsey/plugins/<skill-name>/skills/<skill-name> .claude/skills/ && rm -rf /tmp/lorkinsey
 ```
+
+### D. Codex CLI
+
+Codex exposes any markdown file under `~/.codex/prompts/` as a slash command (`/<filename>`). The one-liner below reuses the same repo layout — no separate build target needed:
+
+```bash
+git clone --depth 1 https://github.com/Lorhard/lorkinsey.git /tmp/lorkinsey && mkdir -p ~/.codex/prompts && for d in /tmp/lorkinsey/plugins/*/skills/*/; do name=$(basename "$d"); cp "$d/SKILL.md" ~/.codex/prompts/"$name".md; done && rm -rf /tmp/lorkinsey
+```
+
+After install, invoke explicitly — e.g. `/snowball`, `/ycofficehour`. Note: Codex has no auto-trigger mechanism, so skills only activate when called by name (unlike Claude Code, where the frontmatter routes questions automatically).
 
 ## Usage
 
