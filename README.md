@@ -8,15 +8,15 @@ Lorkinsey packages the structured thinking frameworks we use day-to-day at Lorha
 
 ## Available Skills (3)
 
-### `lorkindoc` (v2026.04.18.2)
+### `lorkindoc` (v2026.07.17)
 
 Lorhard's in-house design system for formal, long-form HTML documents — contracts, consulting reports, research, sector notes, equity research, and any deliverable that must print or export to PDF cleanly. Opinionated single-template across three scenarios: contracts, named-client reports, general reports.
 
-### `snowball` (v2026.04.18)
+### `snowball` (v2026.07.17)
 
 Warren Buffett's decision operating system for consequential choices — investing, moats, valuation, governance, macro, life philosophy. Opinionated single-framework by design; pair with others for early-stage tech bets.
 
-### `ycofficehour` (v2026.04.17)
+### `ycofficehour` (v2026.07.17)
 
 YC Office Hours: structured product thinking for new ideas, directions, and 'is this worth building' questions. Research-first, not output-first.
 
