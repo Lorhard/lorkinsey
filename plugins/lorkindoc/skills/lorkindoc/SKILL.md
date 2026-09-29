@@ -60,7 +60,8 @@ English text is set in Times New Roman; CJK text falls back through Noto Serif S
 |---|---|---|
 | Primary text | `#111` | Headings, emphasized body, table headers |
 | Secondary text | `#444` | Subtitles, table cells, block quotes |
-| Tertiary text | `#888` | Cover labels, footer, TOC sub-items |
+| Tertiary text | `#888` | Cover labels, TOC sub-items |
+| Footer text | `#666` | `.doc-footer` and `.site-footer` — solid color, never stacked with `opacity` (≥ 4.5:1 on white) |
 | Rules / borders | `#bbb` / `#ccc` / `#ddd` | h2 top border, table dividers, TOC dotted leaders, `<hr>` |
 | Brand gold | `#be9c72` | The 60px rule under the cover title. **The only chromatic element.** |
 | Highlight background | `#fffbe6` (with `#e6d9a0` border) | Placeholders, key figures, pull quotes |
@@ -218,7 +219,7 @@ For consulting reports, product research, competitive analyses, PDP studies, and
 
 **Table of contents:** strongly recommended for reports with four or more h2 sections; see **Table of Contents**.
 
-**Footer (required, matches the lorhard.com site footer):**
+**Footer (required, same structure as the lorhard.com site footer; solid `#666` instead of the site's translucent treatment):**
 
 ```html
 <div class="doc-footer">
@@ -424,15 +425,14 @@ td { padding: 5px 8px; border-bottom: .5px solid #ddd; vertical-align: top; colo
 
 /* Footer (reports only — DO NOT include in contracts) */
 .doc-footer { margin-top: 40px; padding-top: 16px; border-top: .5px solid #bbb;
-              text-align: center; font-size: 9pt; color: #888; page-break-inside: avoid; }
+              text-align: center; font-size: 9pt; color: #666; page-break-inside: avoid; }
 .doc-footer .footer-note { margin-bottom: 16px; }
 .site-footer { display: flex; align-items: center; justify-content: center;
-               gap: 10px; margin-top: 12px; font-size: 8pt; color: #888;
+               gap: 10px; margin-top: 12px; font-size: 8pt;
                font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', system-ui, sans-serif; }
-.site-footer a { color: #888; text-decoration: none; opacity: .7; }
-.site-footer a:hover { opacity: 1; }
-.site-footer svg { display: inline-block; vertical-align: middle; opacity: .6; }
-.site-footer .copy { opacity: .7; }
+.site-footer a { color: inherit; text-decoration: none; }
+.site-footer a:hover { color: #111; }
+.site-footer svg { display: inline-block; vertical-align: middle; }
 
 /* Screen — add horizontal padding on screen so the body and footer don't hug the viewport edge on small screens */
 @media screen {
