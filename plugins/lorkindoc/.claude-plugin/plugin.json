@@ -1,7 +1,7 @@
 {
   "name": "lorkindoc",
   "description": "Lorhard's in-house design system for formal, long-form HTML documents — contracts, consulting reports, research, sector notes, equity research, and any deliverable that must print or export to PDF cleanly. Opinionated single-template across three scenarios: contracts, named-client reports, general reports.",
-  "version": "2026.07.17",
+  "version": "2026.09.29",
   "author": {
     "name": "Lorhard"
   },
