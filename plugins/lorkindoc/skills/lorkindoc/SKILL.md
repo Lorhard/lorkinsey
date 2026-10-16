@@ -304,13 +304,13 @@ Every link to `https://lorhard.com/` inside a Lorkindoc document — the logo's 
 |---|---|---|
 | `utm_source` | `lorkindoc` | Fixed. Marks traffic as originating from a formal Lorhard document. |
 | `utm_medium` | `client-report` or `industry-report` | Scenario type. |
-| `utm_campaign` | Document slug (kebab-case) | e.g. `yeswelder-pdp`, `q2-ai-sector`. |
+| `utm_campaign` | Document slug (kebab-case) | e.g. `acme-pdp`, `q2-ai-sector`. |
 
 **Examples:**
 
 ```html
 <!-- Scenario B — named-client report -->
-<a href="https://lorhard.com/?utm_source=lorkindoc&utm_medium=client-report&utm_campaign=yeswelder-pdp" target="_blank" rel="noopener noreferrer" class="cover-logo-link">…</a>
+<a href="https://lorhard.com/?utm_source=lorkindoc&utm_medium=client-report&utm_campaign=acme-pdp" target="_blank" rel="noopener noreferrer" class="cover-logo-link">…</a>
 
 <!-- Scenario C — general report -->
 <a href="https://lorhard.com/?utm_source=lorkindoc&utm_medium=industry-report&utm_campaign=q2-ai-sector" target="_blank" rel="noopener noreferrer" class="cover-logo-link">…</a>
